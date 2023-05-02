@@ -12,5 +12,7 @@ ZeroConf Browser is a network browser for ZeroConf/Bonjour/Avahi/Rendezvous serv
 
 This code is very old and I have not touched it in years but many on Stack Overflow ask how I have made it work on Android so I thought I would just publish this code.
 
-
 Stack Overflow: https://stackoverflow.com/a/23854825/502366
+
+## Screenshots
+<img src="https://raw.githubusercontent.com/melloware/zeroconf-browser/main/images/zeroconf-services.png" alt="ZeroConf Screenshot" />
