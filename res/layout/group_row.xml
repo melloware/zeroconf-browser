@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:layout_width="fill_parent"
+  android:layout_height="40dip">
+  
+  <TextView android:id="@+id/padder"
+            android:paddingLeft="50px"
+            style="@style/MellowareListText" />
+            
+  <ImageView android:id="@+id/serviceicon" 
+             android:layout_toRightOf="@+id/padder"
+             android:layout_width="30dip" 
+             android:layout_height="30dip"
+             android:scaleType="fitXY" />
+             
+  <TextView android:layout_toRightOf="@+id/serviceicon" 
+            android:id="@+id/service"
+            android:paddingLeft="6px"
+            android:ellipsize="end"
+            android:lines="1"
+            android:scrollHorizontally="true"
+            style="@style/MellowareListText" />
+            
+</RelativeLayout>

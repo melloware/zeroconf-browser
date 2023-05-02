@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+  android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:src="@drawable/icon" android:id="@+id/imgIcon"></ImageView>
+    <TextView android:id="@+id/txtTitle" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+      android:layout_weight="1" android:text="@string/app_name" android:paddingLeft="15dip" android:textSize="20sp"/>
+  </LinearLayout>
+  <LinearLayout android:id="@+id/LinearLayout03" android:layout_height="wrap_content"
+    android:layout_width="fill_parent" android:gravity="center_vertical|center_horizontal" android:layout_marginTop="15dip">
+    <Button android:id="@+id/btnWebsite" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:text="@string/btn_website" android:width="100dip"/>
+    <Button android:id="@+id/btnSupport" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:text="@string/btn_support" android:width="100dip"/>
+  </LinearLayout>
+  <LinearLayout android:id="@+id/LinearLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dip">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="@string/info_desc"
+            />
+  </LinearLayout>
+  <LinearLayout android:id="@+id/LinearLayout05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dip">
+     <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imgMelloware" android:src="@drawable/melloware"></ImageView><TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="@string/info_copyright"
+            android:textSize="14sp"
+            android:textColor="#bebebe"
+            />
+  
+</LinearLayout>
+</LinearLayout>

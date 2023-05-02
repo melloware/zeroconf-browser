@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZeroConf Browser</string>
+    <string name="app_short_name">ZeroConf</string>
+    <string name="app_url">http://melloware.com/products/zeroconf</string>
+    <string name="app_forum">http://forum.melloware.com/</string>
+    <string name="info_desc">ZeroConf Browser allows users to browse the network for available Bonjour/Rendezvous/ZeroConf mDNS services, including applications providing network services that register with mDNS.  It is a useful tool for debugging ZeroConf problems and to discover what services are visible to your Android device.</string>
+    <string name="info_copyright">Copyright \u00a9 2010 Melloware\nhttp://www.melloware.com</string>
+    <string name="tab_service">Services</string>
+    <string name="tab_info">Info</string>
+    <string name="btn_website">Website</string>
+    <string name="btn_support">Support</string>
+    <string name="msg_scan">Scanning Network...</string>
+    <string name="msg_noservices">No Services Found</string>
+</resources>
